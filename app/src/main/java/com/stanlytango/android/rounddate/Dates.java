@@ -14,12 +14,13 @@ public class Dates {
         tillDate = new Date();			//
     }// --------------------------------//
 
-    // METHOD TO GET INSTANCE
-    public static Dates getInstance(){
-        if(staticDaysObj == null){
-            staticDaysObj = new Dates();
-        }	return staticDaysObj;
-    }
+
+    // METHOD TO GET INSTANCE---------------//
+    public static Dates getInstance(){      //
+        if(staticDaysObj == null){          //
+            staticDaysObj = new Dates();    //
+        }	return staticDaysObj;           //
+    }//-------------------------------------//
 
     public void setEventDate(Date eD){
         eventDate = eD;
